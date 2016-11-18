@@ -10,10 +10,10 @@ _This app will allow a user to input a string.  The user will then enter a word 
 
 ## Setup/Installation Requirements
 
-* _Clone this repository
-* _bundle install gems in your terminal_
+* _Clone this repository_
+* _Bundle install gems in your terminal_
 * _Run the command $ruby app.rb to run Sinatra_
-* _view webpage with your browser at localhost:4567_
+* _View webpage with your browser at localhost:4567_
 
 
 ## Known Bugs
@@ -22,8 +22,8 @@ _There are no know bugs at this time. If you find any bugs, please contact suppo
 
 ## Support and contact details
 
-_ cody.brubaker@gmail.com _
-_ https://github.com/codybru10 _
+_https://github.com/codybru10_
+_cody.brubaker@gmail.com_
 
 ## Technologies Used
 
