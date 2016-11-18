@@ -1,3 +1,51 @@
 button {
   margin-top: 10px;
 }
+
+body {
+  text-align: center;
+  background: linear-gradient(#002E9E, #6495ed);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bungee Inline', cursive;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  font-size: 75px;
+  text-shadow: 2px 2px 13px black;
+}
+
+html {
+  height: 100%;
+}
+
+.well {
+  box-shadow: 5px 5px 10px 2px;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 20px;
+  background: #64DAED;
+  border: 0;
+  margin-bottom: 15px;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+.output {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.margin {
+  margin-bottom: 60px;
+}

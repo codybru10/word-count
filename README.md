@@ -14,6 +14,10 @@ _This app will allow a user to input a string.  The user will then enter a word 
 * _Bundle install gems in your terminal_
 * _Run the command $ruby app.rb to run Sinatra_
 * _View webpage with your browser at localhost:4567_
+* __
+* _OR_
+* __
+* _Deploy this Heroku link: https://rocky-refuge-77485.herokuapp.com/_
 
 
 ## Known Bugs
@@ -22,8 +26,8 @@ _There are no know bugs at this time. If you find any bugs, please contact suppo
 
 ## Support and contact details
 
-_https://github.com/codybru10_
-_cody.brubaker@gmail.com_
+* _https://github.com/codybru10_
+* _cody.brubaker@gmail.com_
 
 ## Technologies Used
 

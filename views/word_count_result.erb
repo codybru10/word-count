@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Word Count</h1>
   <form action="/test_word">
-    <div class="form-group">
+    <div class="form-group well">
       <label for="sentence">Enter your sentence below:</label>
       <input id="sentence" type="text" name="sentence" class="form-control">
       <br>
@@ -11,6 +11,13 @@
     </div>
   </form>
 
-  <h3>Below is the total times the word you selected is used:</h3>
-  <h2><%= @sum %></h2>
+  <h4>Your sentence is below:</h4>
+  <h5><%= @sentence %></h5>
+  <h4>The word you chose is below:</h4>
+  <h5 class="margin"><%= @word %></h5>
+
+  <div class="output well">
+    <h3>Total times "<%= @word %>" is used:</h3>
+    <h2><%= @sum %></h2>
+  </div>
 </div>
