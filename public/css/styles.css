@@ -4,7 +4,7 @@ button {
 
 body {
   text-align: center;
-  background: linear-gradient(#002E9E, #6495ed);
+  background: linear-gradient(#2F2A7D, #8EAFD5);
   background-repeat: no-repeat;
 }
 
@@ -25,7 +25,7 @@ html {
   box-shadow: 5px 5px 10px 2px;
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 20px;
-  background: #64DAED;
+  background: #C1F0F7;
   border: 0;
   margin-bottom: 15px;
 }
