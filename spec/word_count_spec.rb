@@ -14,4 +14,12 @@ describe('String#word_count') do
   it('returns the number of times a word is used in a string, when the string is multiple words') do
     expect('my dog has a new dog friend'.count('dog')).to(eq(2))
   end
+
+  it('returns the number of times a word is used in a string, when the string is multiple words and takes into consideration capitalization') do
+    expect('my dog has a new DOG friend'.count('dog')).to(eq(2))
+  end
+
+  it('returns the number of times a word is used in a string, when the string is multiple words and takes into consideration punctuation') do
+    expect('my dog has a new dog, friend'.count('dog')).to(eq(2))
+  end
 end
