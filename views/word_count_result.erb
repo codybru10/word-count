@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Word Count</h1>
+  <form action="/test_word">
+    <div class="form-group">
+      <label for="sentence">Enter your sentence below:</label>
+      <input id="sentence" type="text" name="sentence" class="form-control">
+      <label for="word">Enter a word you would like to count from your sentence:</label>
+      <input id="word" type="text" name="word" class="form-control">
+      <button type="submit" class="btn">Submit</button>
+    </div>
+  </form>
+
+  <h3>Below is the total times the word you selected is used:</h3>
+  <h2><%= @sum %></h2>
+</div>
